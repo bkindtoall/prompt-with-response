@@ -13,6 +13,9 @@ var count = function(str){
   return letter;
 };
 
-alert(str);
-alert(firstLastUpperLtr(str));
-alert(count(str));
+//alert(str);
+//alert(firstLastUpperLtr(str));
+//alert(count(str));
+
+var together = count(str) + str + firstLastUpperLtr(str);
+alert(together)
